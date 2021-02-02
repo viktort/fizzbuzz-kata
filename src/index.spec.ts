@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 
-export function sum(a: number, b: number): number {
-    return a + b;
+export function sum(a: number, b: number): String {
+    return (a + b).toString();
 }
 
 describe('sample test-suite', () => {
